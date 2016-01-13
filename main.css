@@ -1,11 +1,36 @@
 body {
-    background: black;
+    background: #b3b3cc;
     color: white;
     }
 h1 { 
     font-size: 48px;
     font-weight: bold;
     }
+.pClass {
+  font-size: 38px
+}
 p {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    
     font-size: 24px;
     }
+li {
+  padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    
+    font-size: 24px;
+}
+a {
+  padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+    font-size: 24px;
+  color: white;
+}
