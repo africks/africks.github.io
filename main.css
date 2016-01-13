@@ -5,6 +5,7 @@ body {
 h1 { 
     font-size: 48px;
     font-weight: bold;
+    font-family: "Courier New";
     }
 .pClass {
   font-size: 38px
@@ -16,6 +17,7 @@ p {
     padding-left: 80px;
     
     font-size: 24px;
+    font-family: sans-serif;
     }
 li {
   padding-top: 10px;
@@ -24,6 +26,7 @@ li {
     padding-left: 80px;
     
     font-size: 24px;
+    font-family: "Courier New";
 }
 a {
   padding-top: 10px;
