@@ -5,7 +5,48 @@ body {
 * {
   box-sizing: border-box;
 }
-
+nav {
+  margin: 14 10;
+}
+nav a{
+  background-color: steelblue;
+  border-radius: 5px;
+  padding: 5 10;
+  text-decoration: none;
+  color: white
+}
+header {
+  background-color: lightgrey;
+  margin: 10;
+}
+header h1 {
+  padding: 20 10 0;
+  margin: 0;
+}
+header h3 {
+  margin:0;
+  padding: 4 0 10 10 
+}
+img {
+  padding: 10px;
+  margin: 10;
+  border: 2px dashed slategray;
+}
+p {
+  padding: 0 10 0 10;
+}
+footer {
+  border: 2px dashed slategray;
+  margin: 10;
+  padding: 0 0 10 ;
+}
+footer h4 {
+  padding: 10 8 0;
+  margin: 0;
+}
+footer a {
+  padding: 10 5 10 ;
+}
 #wrapper {
   border: 2px dotted slategray;
   width: 800px;
