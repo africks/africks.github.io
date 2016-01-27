@@ -3,11 +3,22 @@ body {
     color: white;
     }
 nav {
-    background-color: grey;
     border-radius: 5px;
 }
+nav a {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: white;
+  display: inline-block;
+  font-family: Verdana, Geneva, sans-serif;
+}
 a:link {
-    text-decoration: none;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: white;
+  color: grey;
 }
 section {
     background-color: lightgrey;
