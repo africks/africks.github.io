@@ -11,6 +11,10 @@
     background-color: lightgrey;
 }
 
+.promo-container {
+    background-color: mintcream;
+}
+
 header {
     display: flex;
 }
@@ -42,11 +46,40 @@ header {
 
 #big-promo {
     padding-top: 200px;
-    background: pink;
+    background-color: paleturquoise;
 }
 
 .promo-message {
     width: 60%;
     padding: 50px;
-    background: green;
+    background-color: darkturquoise;
+}
+
+/* product features */
+
+.product-features, .product-buy-it-now{
+    display: flex;
+    background-color: lightcoral
+}
+
+.feature {
+    text-align: center;
+    padding: 20px
+}
+
+.feature-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.product-buy-it-now {
+    align-items: center;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.product-info{
+   text-align: right;
 }
