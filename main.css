@@ -1,17 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
 body {
     background: #b3b3cc;
     color: white;
     }
+header {
+    display: flex;
+}
 nav {
     border-radius: 5px;
 }
 nav a {
   background-color: grey;
-  border-radius: 5px;
-  padding: 8px 10px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
   color: white;
   display: inline-block;
   font-family: Verdana, Geneva, sans-serif;
+  text-decoration: none;
 }
 a:link {
   text-decoration: none;
@@ -24,12 +35,7 @@ section {
     background-color: lightgrey;
     border-radius: 5px;
 }
-h1 { 
-    font-size: 60px;
-    font-weight: normal;
-    font-family: "Courier New";
-    text-align: center;
-    }
+
 h2 {
   font-size: 30px;
   font-family: "Courier New";
