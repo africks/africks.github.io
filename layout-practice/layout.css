@@ -112,4 +112,6 @@ footer {
 .footer-copyright p {
     margin: 0;
 }
-
+.footer-links a {
+    text-decoration: none;
+}
