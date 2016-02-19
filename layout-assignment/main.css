@@ -16,7 +16,7 @@
 	height: 200px;
   top: 0px;
   left: 0px;
-	background: #ee3e64;
+	background: lightpink;
 }
 
 #box_2 { 
@@ -25,14 +25,14 @@
 	height: 200px;
   top: 0px;
   right: 0px;
-	background: #44accf;
+	background: lightblue;
 }
 
 #box_3 { 
 	position: absolute;
 	width: 200px;
 	height: 200px;
-	background: #b7d84b;
+	background: lightgreen;
   left: 0px;
   bottom: 0px;
 }
@@ -41,7 +41,7 @@
 	position: absolute;
 	width: 200px;
 	height: 200px;
-	background: #ddaa00;
+	background: coral;
   right: 0px;
   bottom: 0px;
 }
@@ -56,7 +56,6 @@
 
 .section_two {
   display: flex;
-  background: gray;
   margin: auto;
   width: 960px;
   height: 570px;
@@ -75,24 +74,20 @@
 .flex-item-2,
 .flex-item-3,
 .flex-item-4 {
-  background: red;
+  background: lightpink;
   flex: 1;
 }
 
 .flex-item-2 {
-  background: green;
+  background: lightgreen;
 }
 
 .flex-item-3 {
-  background: blue;
+  background: lightblue;
 }
 
 .flex-item-4 {
-  background: orange;
-}
-
-.flex-box-1 {
-    
+  background: coral;
 }
 
 
@@ -122,13 +117,13 @@
 .flex-box-2 {
     height: 395px;
     width: 175px;
-    background: green;
+    background: lightgreen;
     margin: auto;
 }
 
 .flex-box-3 {
   height: 395px;
   width: 730px;
-  background: orange;
+  background: coral;
   margin: auto;
 }
