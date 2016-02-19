@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.robot {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: solid;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.eye {
+    position: absolute;
+    border: solid;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    left: 100px;
+    top: 80px;
+}
+
+.pupil {
+    position: absolute;
+    background: black;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    top: 100px;
+    border-radius: 50%;
+    
+}
+
+.light {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    border: solid;
+    background: white;
+    border-radius: 50%;
+}
+
+.mouth {
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    border: solid;
+    left: 175px;
+    top: 410px;
+}
+
+.arm-left {
+    position: absolute;
+    height: 10px;
+    width: 125px;
+    border: solid;
+    left: -125px;
+    top: 250px;
+}
+
+.arm-joint-left {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: -20px;
+    top: -8px;
+    border: solid;
+    border-radius: 50%;
+}
+
+.arm-fore-left {
+    position: absolute;
+    height: 125px;
+    width: 10px;
+    left: -15px;
+    top: 10px;
+    border: solid;
+}
+
+.hand-left {
+    position: absolute;
+    height: 25px;
+    width: 40px;
+    border: solid;
+    left: -18px;
+    top: 120px;
+}
+
+.finger-1 {
+    position: absolute;
+    height: 20px;
+    width:3px;
+    top: 21px;
+    left: -3px;
+    background: black;
+}
+
+.finger-2 {
+    position: absolute;
+    height: 20px;
+    width:3px;
+    top: 21px;
+    left: 16px;
+    background: black;
+}
+
+.finger-3 {
+    position: absolute;
+    height: 20px;
+    width:3px;
+    top: 21px;
+    left: 34px;
+    background: black;
+}
+
