@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    margin: none;
+    width: 800px;
+    
+}
+
+.h1 {
+    
+}
