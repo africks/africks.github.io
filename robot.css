@@ -10,6 +10,7 @@
     margin: auto;
     border-radius: 50%;
     top: 100px;
+    background: #D9FFD9;
 }
 
 .antenna {
@@ -29,6 +30,7 @@
     left: -10.5px;
     top: -25px;
     border-radius: 50%;
+    background: #FFB2A8;
 }
 
 .eye {
@@ -40,6 +42,7 @@
     border-radius: 50%;
     left: 100px;
     top: 80px;
+    background: #E2FFF5;
 }
 
 .pupil {
@@ -69,6 +72,7 @@
     border: solid;
     left: 175px;
     top: 410px;
+    background: white;
 }
 
 .teeth-horizontal {
@@ -123,6 +127,7 @@
     border: solid;
     left: -125px;
     top: 250px;
+    background: lightgrey;
 }
 
 .arm-joint-left {
@@ -133,6 +138,7 @@
     top: -8px;
     border: solid;
     border-radius: 50%;
+    background: #FFB2A8;
 }
 
 .arm-fore-left {
@@ -142,6 +148,7 @@
     left: -15px;
     top: 10px;
     border: solid;
+    background: lightgrey;
 }
 
 .hand-left {
@@ -151,6 +158,7 @@
     border: solid;
     left: -18px;
     top: 120px;
+    background: #FFB2A8;
 }
 
 .left-finger-1 {
@@ -187,6 +195,7 @@
     border: solid;
     left: 495px;
     top: 250px;
+    background: lightgrey;
 }
 
 .arm-joint-right {
@@ -197,6 +206,7 @@
     top: -8px;
     border: solid;
     border-radius: 50%;
+    background: #FFB2A8;
 }
 
 .arm-fore-right {
@@ -206,6 +216,7 @@
     left: 125px;
     top: 10px;
     border: solid;
+    background: lightgrey;
 }
 
 .hand-right {
@@ -215,6 +226,7 @@
     border: solid;
     left: -18px;
     top: 120px;
+    background: #FFB2A8;
 }
 
 .right-finger-1 {
@@ -252,6 +264,7 @@
     left: 125px;
     border: solid;
     border-radius: 0px 6px 0 0;
+    background: lightgrey;
 }
 
 .leg-joint-left {
@@ -262,6 +275,7 @@
     top: 144px;
     border: solid;
     border-radius: 50%;
+    background: #FFB2A8;
 }
 
 .leg-fore-left {
@@ -271,6 +285,7 @@
     top: 161px;
     left: -3px;
     border: solid;
+    background: lightgrey;
 }
 
 .foot-left {
@@ -280,26 +295,7 @@
     border: solid;
     left: -40px;
     top: 145px;
-}
-
-.leg-right {
-    position: absolute;
-    height: 150px; 
-    width: 10px;
-    top: 465px;
-    left: 125px;
-    border: solid;
-    border-radius: 0px 6px 0 0;
-}
-
-.leg-joint-right {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: -7.5px;
-    top: 144px;
-    border: solid;
-    border-radius: 50%;
+    background: #FFB2A8;
 }
 
 .leg-right {
@@ -310,6 +306,7 @@
     left: 360px;
     border: solid;
     border-radius: 6px 0px 0 0;
+    background: lightgrey;
 }
 .leg-joint-right {
     position: absolute;
@@ -319,6 +316,7 @@
     top: 144px;
     border: solid;
     border-radius: 50%;
+    background: #FFB2A8;
 }
 
 .leg-fore-right {
@@ -328,6 +326,7 @@
     top: 161px;
     left: -3px;
     border: solid;
+    background: lightgrey;
 }
 
 .foot-right {
@@ -337,4 +336,5 @@
     border: solid;
     left: -40px;
     top: 145px;
+    background: #FFB2A8;
 }
