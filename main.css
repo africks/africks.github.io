@@ -51,6 +51,9 @@ p {
   letter-spacing: 1px;
   line-height: 25px;
   margin: 20px;
+  color: grey;
+  font-size: 20px;
+  font-weight: 100;
     }
 li {
   padding-top: 10px;
@@ -59,7 +62,8 @@ li {
     padding-left: 80px;
     
     font-size: 24px;
-    font-family: "Courier New";
+    font-family: raleway;
+    color: grey;
 }
 a {
   padding-top: 10px;
@@ -68,13 +72,18 @@ a {
     padding-left: 10px;
     
     font-size: 24px;
-  color: white;
+  color: darkslateblue;
 }
 footer {
+  position: relative;
+  height: 25px;
+  padding: 0px 0px 10px 10px;
   background-color: #8484ae;
+  font-family: lora;
 }
 footer a {
-    background-color: floralwhite
-    font-size: 10px;
-    font-weight: normal;
+    position: relative;
+    font-size: 15px;
+    color: white;
+    font-family: lora;
 }
