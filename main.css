@@ -7,7 +7,6 @@
     margin: 0 auto 0 auto;
 }
 body {
-    background: #b3b3cc;
     color: white;
     }
 header {
@@ -16,7 +15,7 @@ header {
 }
 
 nav a {
-  color: white;
+  color: grey;
   font-family: raleway;
   text-decoration: none;
   font-size: 20px;
@@ -46,25 +45,26 @@ h2 {
   color: darkslateblue;
   padding: 10px 0 0 20px;
 }
+
+li {
+  padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    font-size: 20px;
+    font-family: raleway;
+    color: grey;
+}
 p {
   font-family: lora;
   letter-spacing: 1px;
   line-height: 25px;
   margin: 20px;
   color: grey;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 100;
-    }
-li {
-  padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 80px;
-    
-    font-size: 24px;
-    font-family: raleway;
-    color: grey;
 }
+    
 a {
   padding-top: 10px;
     padding-right: 30px;
