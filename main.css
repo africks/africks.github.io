@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 .main-container {
+    position: relative;
     width: 900px;
     margin: 0 auto 0 auto;
 }
@@ -11,44 +12,45 @@ body {
     }
 header {
     display: flex;
+    margin: 0 0 20px 0
 }
-nav {
-    border-radius: 5px;
-}
+
 nav a {
-  background-color: grey;
-  border-radius: 20px;
-  padding: 10px 30px 10px 30px;
   color: white;
-  display: inline-block;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: raleway;
   text-decoration: none;
+  font-size: 20px;
+    
 }
 a:link {
   text-decoration: none;
 }
 nav a:hover {
-  background-color: white;
   color: grey;
 }
-section {
-    background-color: lightgrey;
-    border-radius: 5px;
+.box-1 {
+
+  position: relative;
+  margin: auto;
+  width: 900px;
+  background: #f2f2f3;
 }
 
 h2 {
-  font-size: 30px;
-  font-family: "Courier New";
-  font-weight: normal;
+  font-family: raleway;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  left: 10px;
+  font-size: 40px;
+  color: darkslateblue;
+  padding: 10px 0 0 20px;
 }
 p {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-left: 80px;
-    
-    font-size: 18px;
-    font-family: Verdana, Geneva, sans-serif;
+  font-family: lora;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin: 20px;
     }
 li {
   padding-top: 10px;
@@ -70,7 +72,6 @@ a {
 }
 footer {
   background-color: #8484ae;
-  border-radius: 5px;
 }
 footer a {
     background-color: floralwhite
