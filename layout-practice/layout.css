@@ -19,6 +19,19 @@ header {
     display: flex;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-family: raleway;
+}
+
+h3 {
+    font-family: raleway;
+}
+
+p {
+    font-family: lora;
+}
+
 .branding {
     background-color: black;
     width:150px;
@@ -26,13 +39,16 @@ header {
     margin-right: auto; 
 }
 
-.pill-button {
+.button {
     display: inline-block;
-    background: grey;
     padding: 10px 30px 10px 30px;
-    border-radius: 20px;
-    color: white;
+    color: grey;
     text-decoration: none;
+    font-family: raleway;
+}
+
+.button:hover {
+    color: darkred;
 }
 
 .promo {
@@ -67,13 +83,23 @@ header {
     padding: 20px
 }
 
-.feature-image {
+.feature-image img{
+    -webkit-webkit-transition: all 1s ease;
+    -moz-webkit-transition: all 1s ease;
+    -ms-webkict-transition: all 1s ease;
+    -o-webkit-transition: all 1s ease;
+    transition: all 1s ease;
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
     border-radius: 50%;
     overflow: hidden;
 }
+
+.feature-image img:hover {
+    -webkit-filter: blur(2px);
+}
+
 .product-buy-it-now {
     align-items: center;
     padding: 20px;
@@ -113,5 +139,11 @@ footer {
     margin: 0;
 }
 .footer-links a {
+    font-family: raleway;
     text-decoration: none;
+    color: grey;
+    
+}
+a:hover {
+    color: darkred;
 }
