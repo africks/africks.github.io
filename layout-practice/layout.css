@@ -78,24 +78,27 @@ p {
 /* Big Promo*/
 
 #big-promo {
+    position: relative;
+    background-image: url("7fe403d2.jpg");
+    background-size: cover;
     padding-top: 200px;
-    background-color: paleturquoise;
+    
 }
 
 .promo-message {
+    position: relative;
+    top: -40px;
+    left: 20px;
     width: 60%;
-    padding: 50px;
-    background-color: darkturquoise;
-    box-shadow: 10px 10px 5px #888888;
-    margin: 0 0 30px 0;
-    margin
+    padding: 10px 30px 40px 30px;
+    background-color: floralwhite;
 }
 
 /* product features */
 
 .product-features, .product-buy-it-now{
     display: flex;
-    background-color: lightcoral
+    background-color: lemonchiffon;
 }
 
 .feature {
@@ -125,7 +128,7 @@ p {
 .product-buy-it-now {
     align-items: center;
     padding: 20px;
-    background-color: aquamarine;
+    background-color: floralwhite;
 }
 
 .product-image img{
@@ -147,7 +150,7 @@ p {
 }
 
 footer {
-    background: orange;
+    background: lilac;
     display: flex;
     padding: 15px 10px 15px 10px;
     font-size: 12px;
