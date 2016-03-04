@@ -42,18 +42,18 @@ p {
   text-decoration: none;
   font-family: raleway;
   font-weight: bold;
-  background: lightblue;
+  background:  #c8e2ea;
 }
 
 .nav a:hover {
-  background-color: coral;
-  color: darkred;
+  background-color:  #c8e2ea;
+  color:  mintcream;
 }
 
 .branding {
-    width:150px;
-    height:50px;
-    margin-right: auto; 
+    font-family: raleway;
+    margin:auto;
+    font-size: 40px;
 }
 .branding img {
     width:150px;
@@ -71,9 +71,14 @@ p {
   color: grey;
   text-decoration: none;
   font-family: raleway;
-  background: lavender;
+  background:  #c8e2ea;
+  font-weight: bold;
 }
 
+.button:hover {
+  backgound:  #c8e2ea;
+  color: floralwhite;
+}
 
 /* Big Promo*/
 
@@ -150,7 +155,7 @@ p {
 }
 
 footer {
-    background: lilac;
+    background: mintcream;
     display: flex;
     padding: 15px 10px 15px 10px;
     font-size: 12px;
@@ -167,6 +172,7 @@ footer {
 
 .footer-copyright p {
     margin: 0;
+    color: grey;
 }
 .footer-links a {
     font-family: raleway;
