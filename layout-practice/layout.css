@@ -32,6 +32,24 @@ p {
     font-family: lora;
 }
 
+.nav li{
+  display: inline-block;
+}
+
+.nav a {
+  padding: 10px 30px 10px 30px;
+  color: grey;
+  text-decoration: none;
+  font-family: raleway;
+  font-weight: bold;
+  background: lightblue;
+}
+
+.nav a:hover {
+  background-color: coral;
+  color: darkred;
+}
+
 .branding {
     background-color: black;
     width:150px;
@@ -39,22 +57,18 @@ p {
     margin-right: auto; 
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 30px 10px 30px;
-    color: grey;
-    text-decoration: none;
-    font-family: raleway;
-}
-
-.button:hover {
-    color: darkred;
-}
-
 .promo {
     background: white;
     color: black;
     font-size: 18px;
+}
+
+.button {
+  padding: 10px 30px 10px 30px;
+  color: grey;
+  text-decoration: none;
+  font-family: raleway;
+  background: lavender;
 }
 
 
@@ -69,6 +83,9 @@ p {
     width: 60%;
     padding: 50px;
     background-color: darkturquoise;
+    box-shadow: 10px 10px 5px #888888;
+    margin: 0 0 30px 0;
+    margin
 }
 
 /* product features */
@@ -94,6 +111,8 @@ p {
     margin: 0 auto 0 auto;
     border-radius: 50%;
     overflow: hidden;
+    height: 200px;
+    width: 200px;
 }
 
 .feature-image img:hover {
@@ -104,6 +123,11 @@ p {
     align-items: center;
     padding: 20px;
     background-color: aquamarine;
+}
+
+.product-image img{
+    height: 275px;
+    width: 465px;
 }
 
 .product-info{
@@ -143,7 +167,4 @@ footer {
     text-decoration: none;
     color: grey;
     
-}
-a:hover {
-    color: darkred;
 }
