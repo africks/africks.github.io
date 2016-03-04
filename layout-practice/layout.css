@@ -41,13 +41,12 @@ p {
   color: grey;
   text-decoration: none;
   font-family: raleway;
-  font-weight: bold;
-  background:  #c8e2ea;
+  text-transform: uppercase;
 }
 
 .nav a:hover {
-  background-color:  #c8e2ea;
-  color:  mintcream;
+  transition: all 1.5s ease;
+  color:black;
 }
 
 .branding {
@@ -71,13 +70,12 @@ p {
   color: grey;
   text-decoration: none;
   font-family: raleway;
-  background:  #c8e2ea;
-  font-weight: bold;
+  background:none;
 }
 
 .button:hover {
-  backgound:  #c8e2ea;
-  color: floralwhite;
+  transition: all 1.5s ease;
+  color: black;
 }
 
 /* Big Promo*/
@@ -152,6 +150,19 @@ p {
     color: white;
     text-align: center;
     padding: 50px;
+}
+
+.button-promo {
+   padding: 10px 30px 10px 30px;
+  color: white;
+  text-decoration: none;
+  font-family: raleway;
+  background:none;
+}
+
+.button-promo:hover {
+  transition: all 1.5s ease;
+  color: black;
 }
 
 footer {
