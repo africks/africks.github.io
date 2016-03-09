@@ -70,7 +70,7 @@ p {
   color: grey;
   text-decoration: none;
   font-family: raleway;
-  background:none;
+  background:none;   
 }
 
 .button:hover {
@@ -122,10 +122,17 @@ p {
     overflow: hidden;
     height: 200px;
     width: 200px;
+    -webkit-filter: blur(2px);
 }
 
 .feature-image img:hover {
-    -webkit-filter: blur(2px);
+    -webkit-webkit-transition: all 1s ease;
+    -moz-webkit-transition: all 1s ease;
+    -ms-webkict-transition: all 1s ease;
+    -o-webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-filter: blur(0px);
+
 }
 
 .product-buy-it-now {
