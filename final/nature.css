@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.main-container{
+    background-color: lightgrey;
+}
+
+.promo-container {
+    background-color: mintcream;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: raleway;
+}
+
+h3 {
+    font-family: raleway;
+}
+
+p {
+    font-family: lora;
+}
+
+.nav {
+    flex: initial;
+    justify-content: flex-start;
+    margin: auto
+}
+
+.branding{
+    justify-content: flex-end;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.nav a {
+  padding: 10px 30px 10px 30px;
+  color: grey;
+  text-decoration: none;
+  font-family: raleway;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  transition: all 1.5s ease;
+  color:black;
+}
+
+.branding {
+    font-family: raleway;
+    margin:auto;
+    font-size: 40px;
+}
+.branding img {
+    width:150px;
+    height:50px;
+}
+
+.promo {
+    background: white;
+    color: black;
+    font-size: 18px;
+}
+
+.button {
+  padding: 10px 30px 10px 30px;
+  color: grey;
+  text-decoration: none;
+  font-family: raleway;
+  background:white; 
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.button:hover {
+  transition: all 1.5s ease;
+  color: black;
+}
+
+/* Big Promo*/
+
+#big-promo {
+    position: relative;
+    background: blue;
+    background-size: cover;
+    padding-top: 200px;
+    height: 600px;
+    
+}
+
+.promo-message {
+    position: relative;
+    top: 100px;
+    left: 225px;
+    width: 60%;
+    padding: 10px 30px 40px 30px;
+    background-color: none;
+}
+
+.button-promo{
+  padding: 10px 30px 10px 30px;
+  color: grey;
+  text-decoration: none;
+  font-family: raleway;
+  background:white; 
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* product features */
+
+.product-features, .product-buy-it-now{
+    display: flex;
+    background-color: lemonchiffon;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px
+}
+
+.feature-image img{
+    -webkit-webkit-transition: all 1s ease;
+    -moz-webkit-transition: all 1s ease;
+    -ms-webkict-transition: all 1s ease;
+    -o-webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    -webkit-filter: blur(2px);
+}
+
+.feature-image img:hover {
+    -webkit-webkit-transition: all 1s ease;
+    -moz-webkit-transition: all 1s ease;
+    -ms-webkict-transition: all 1s ease;
+    -o-webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-filter: blur(0px);
+
+}
+
+.product-buy-it-now {
+    align-items: center;
+    padding: 20px;
+    background-color: floralwhite;
+}
+
+.product-image img{
+    height: 275px;
+    width: 465px;
+}
+
+.product-info{
+   text-align: right;
+}
+
+/* product reviews*/
+
+#product-reviews {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.button-promo {
+   padding: 10px 30px 10px 30px;
+  color: white;
+  text-decoration: none;
+  font-family: raleway;
+  background:none;
+}
+
+.button-promo:hover {
+  transition: all 1.5s ease;
+  color: black;
+}
+
+footer {
+    background: mintcream;
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    font-size: 12px;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-copyright {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-copyright p {
+    margin: 0;
+    color: grey;
+}
+.footer-links a {
+    font-family: raleway;
+    text-decoration: none;
+    color: grey;
+    
+}
