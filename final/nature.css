@@ -5,139 +5,82 @@
 .main-container {
     width: 1200px;
     margin: 0 auto 0 auto;
-}
-
-.main-container{
-    background-color: lightgrey;
-}
-
-.promo-container {
-    background-color: mintcream;
-}
-
-header {
-    display: flex;
-}
-
-h1 {
-    text-transform: uppercase;
-    font-family: raleway;
-}
-
-h3 {
-    font-family: raleway;
-}
-
-p {
-    font-family: lora;
+    position: relative;
+    margin: auto;
+    diplay: flex;
+    background-color: pink;
 }
 
 .nav {
-    flex: initial;
-    justify-content: flex-start;
-    margin: auto
+    display: flex;
+    height: 50px;
+    background: lightgreen;
+    margin: auto;
 }
 
-.branding{
-    justify-content: flex-end;
-}
+.nav li {
+    display: inline-flex;
+    margin: 0 10px;
 
-.nav li{
-  display: inline-block;
 }
 
 .nav a {
-  padding: 10px 30px 10px 30px;
-  color: grey;
-  text-decoration: none;
-  font-family: raleway;
-  text-transform: uppercase;
-}
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+    font-family: lora;
 
-.nav a:hover {
-  transition: all 1.5s ease;
-  color:black;
 }
-
-.branding {
-    font-family: raleway;
-    margin:auto;
-    font-size: 40px;
-}
-.branding img {
-    width:150px;
-    height:50px;
-}
-
-.promo {
-    background: white;
-    color: black;
-    font-size: 18px;
-}
-
-.button {
-  padding: 10px 30px 10px 30px;
-  color: grey;
-  text-decoration: none;
-  font-family: raleway;
-  background:white; 
-  border-radius: 5px;
-  margin: 5px;
-}
-
-.button:hover {
-  transition: all 1.5s ease;
-  color: black;
-}
-
-/* Big Promo*/
-
-#big-promo {
+.sign-up{
     position: relative;
-    background: blue;
-    background-size: cover;
-    padding-top: 200px;
-    height: 600px;
+    height: 500px;
+    margin: auto;
+}
+
+.sign-up-text-blox {
+    position: relative;
+    width: 600px;
+    margin: auto;
+    top: 200px;
+    background: lightblue;
+
+}
+
+.sign-up-text-blox h1 {
+    position: relative;
+    display: inline-flex;
+    margin: auto;
+    left: 190px;
     
 }
 
-.promo-message {
+.sign-up-text-blox p {
     position: relative;
-    top: 100px;
-    left: 225px;
-    width: 60%;
-    padding: 10px 30px 40px 30px;
-    background-color: none;
+    height: 80px;
+    width: 600px;
 }
 
-.button-promo{
-  padding: 10px 30px 10px 30px;
-  color: grey;
-  text-decoration: none;
-  font-family: raleway;
-  background:white; 
-  border-radius: 5px;
-  margin: 5px;
+.pill-button-pricing {
+    position: relative;
+    left: 250px;
+    display: inline-block;
+    background: grey;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-decoration: none;
 }
 
-/* product features */
+/*FEATURES*/
 
-.product-features, .product-buy-it-now{
-    display: flex;
-    background-color: lemonchiffon;
+.feature-items {
+    position: relative;
+    display: inline-flex;
+}
+.features {
+    width: 300px;
 }
 
-.feature {
-    text-align: center;
-    padding: 20px
-}
-
-.feature-image img{
-    -webkit-webkit-transition: all 1s ease;
-    -moz-webkit-transition: all 1s ease;
-    -ms-webkict-transition: all 1s ease;
-    -o-webkit-transition: all 1s ease;
-    transition: all 1s ease;
+.feature-image {
+    position: relative;
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
@@ -145,79 +88,42 @@ p {
     overflow: hidden;
     height: 200px;
     width: 200px;
-    -webkit-filter: blur(2px);
 }
 
-.feature-image img:hover {
-    -webkit-webkit-transition: all 1s ease;
-    -moz-webkit-transition: all 1s ease;
-    -ms-webkict-transition: all 1s ease;
-    -o-webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-filter: blur(0px);
-
-}
-
-.product-buy-it-now {
-    align-items: center;
-    padding: 20px;
-    background-color: floralwhite;
-}
-
-.product-image img{
-    height: 275px;
-    width: 465px;
-}
-
-.product-info{
-   text-align: right;
-}
-
-/* product reviews*/
-
-#product-reviews {
-    background-color: cadetblue;
-    color: white;
-    text-align: center;
-    padding: 50px;
-}
-
-.button-promo {
-   padding: 10px 30px 10px 30px;
-  color: white;
-  text-decoration: none;
-  font-family: raleway;
-  background:none;
-}
-
-.button-promo:hover {
-  transition: all 1.5s ease;
-  color: black;
-}
-
-footer {
-    background: mintcream;
-    display: flex;
-    padding: 15px 10px 15px 10px;
-    font-size: 12px;
-}
-
-.footer-links {
-    flex: 1;
-}
-
-.footer-copyright {
-    flex: 1;
-    text-align: right;
-}
-
-.footer-copyright p {
-    margin: 0;
-    color: grey;
-}
-.footer-links a {
-    font-family: raleway;
-    text-decoration: none;
-    color: grey;
+.features h2 {
+    position: relative;
+    left: 100px;
+    display: inline-block;
     
+}
+
+.features p {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*MORE FEATURES*/
+
+.more-features {
+    position: relative;
+    display: inline-flex;
+    padding:0 0 50px 0;
+}
+
+.more-features h2 {
+    position: relative;
+    display: inline-flex;
+    padding: 0 30px;
+}
+
+.more-features p {
+    position: relative;
+    padding: 0 30px;
+    margin: none;
+    
+}
+
+.more-features-image {
+    padding: 30px 20px 30px 10px ;
 }
