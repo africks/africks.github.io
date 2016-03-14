@@ -34,6 +34,7 @@
     position: relative;
     height: 500px;
     margin: auto;
+    background: navy;
 }
 
 .sign-up-text-blox {
@@ -74,6 +75,7 @@
 .feature-items {
     position: relative;
     display: inline-flex;
+    padding: 70px 0 40px 0;
 }
 .features {
     width: 300px;
@@ -94,6 +96,7 @@
     position: relative;
     left: 100px;
     display: inline-block;
+    margin: 20px 0 0 0;
     
 }
 
@@ -101,6 +104,7 @@
     width: 300px;
     padding: 20px;
     text-align: center;
+    padding: 0 20px;
 }
 
 /*MORE FEATURES*/
@@ -126,4 +130,16 @@
 
 .more-features-image {
     padding: 30px 20px 30px 10px ;
+}
+
+.pill-button-feature {
+    position: relative;
+    justify-content: flex-start
+    left: 250px;
+    display: inline-block;
+    background: grey;
+    padding: 10px 30px 10px 30px;
+    margin: 30px 0 0 30px;
+    color: white;
+    text-decoration: none;
 }
