@@ -143,3 +143,43 @@
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/*!!!!FEATURES PAGE!!!!!*/
+
+.four-feature-blocks {
+    position: relative;
+    margin: 40px 0 0 0;
+}
+
+.feature-block-one {
+    position: relative;
+    display: inline-flex;
+}
+
+.feature-block-two {
+    position: relative;
+    display: inline-flex;
+    left: 335px;
+}
+
+.feature-block-three {
+    position: relative;
+    display: inline-flex;
+}
+
+.feature-block-four {
+    position: relative;
+    display: inline-flex;
+    left: 335px;
+}
+
+.blocks-text {
+    position: relative;
+    width: 200px;
+}
+
+.blocks-text p {
+}
