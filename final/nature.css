@@ -13,7 +13,7 @@
 
 .nav {
     display: flex;
-    height: 50px;
+    height: 100px;
     background: lightgreen;
     margin: auto;
 }
@@ -223,6 +223,114 @@
     display: inline-flex;
     margin: 0 0 50px 0;
     left: 545px;
+    background: grey;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+/*PRICING PAGE*/
+
+.large-pricing-image{
+    position: relative;
+    height: 400px;
+}
+
+.packages {
+    position: relative;
+    left: 10%;
+    display: inline-flex;
+    margin: auto;
+}
+
+.package-subtitle {
+    text-align: center;
+}
+
+.package-one-box {
+    position: relative;
+    margin: auto;
+    background: lightgreen;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+}
+
+.package-prices {
+    font-size: 90px;
+    text-align: center;
+}
+
+.package-one-box p {
+    text-align: center;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.package-two-box {
+    position: relative;
+    margin: auto;
+    background: lightgreen;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+}
+
+.package-two-box p {
+    text-align: center;
+    padding: 0 20px;
+    line-height: 25px;
+}
+
+.package-three-box {
+    position: relative;
+    margin: auto;
+    background: lightgreen;
+    height: 500px;
+    width: 300px;
+    margin: 10px;
+}
+
+.package-three-box p {
+    text-align: center;
+    padding: 0 20px;
+    line-height: 25px;
+}
+
+.pill-button-buy {
+    position: relative;
+    background: grey;
+    margin: auto;
+    top: 20px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.to-blog {
+    position: relative;
+    padding: 50px 30px;
+    height: 425px;
+}
+
+.not-convinced {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.about-blog {
+    position: relative;
+    margin: 0 auto 50px;
+    width: 500px;
+    text-align: center;
+}
+
+
+.pill-button-blog {
+    position: relative;
+    left: 510px;
     background: grey;
     padding: 10px 30px 10px 30px;
     color: white;
