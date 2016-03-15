@@ -149,8 +149,10 @@
     
 }
 
-.more-features-image {
+.more-features-image img{
+    position: relative;
     padding: 30px 20px 30px 10px ;
+    width: 600px;
 }
 
 .pill-button-feature {
@@ -264,7 +266,7 @@
 .large-pricing-image{
     position: relative;
     height: 400px;
-    background-image: url("north_lights_two_edit.jpg");
+    background-image: url("photographer_edit.jpg");
     background-size: cover;
 }
 
