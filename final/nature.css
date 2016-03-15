@@ -113,9 +113,10 @@
 
 .features h2 {
     position: relative;
-    left: 100px;
+    left: 92px;
     display: inline-block;
     margin: 20px 0 0 0;
+    font-family: raleway;
     
 }
 
@@ -138,6 +139,7 @@
     position: relative;
     display: inline-flex;
     padding: 0 30px;
+    font-family: raleway;
 }
 
 .more-features p {
@@ -156,11 +158,14 @@
     justify-content: flex-start
     left: 250px;
     display: inline-block;
-    background: grey;
+    background: none;
     padding: 10px 30px 10px 30px;
     margin: 30px 0 0 30px;
-    color: white;
+    color: grey;
     text-decoration: none;
+    text-decoration: none;
+    font-family: raleway;
+    border: solid;
 }
 
 
@@ -251,6 +256,8 @@
 .large-pricing-image{
     position: relative;
     height: 400px;
+    background-image: url("north_lights_two_edit.jpg");
+    background-size: cover;
 }
 
 .packages {
@@ -267,10 +274,11 @@
 .package-one-box {
     position: relative;
     margin: auto;
-    background: lightgreen;
+    background: white;
     height: 500px;
     width: 300px;
     margin: 10px;
+    box-shadow: 3px 3px lightgrey;
 }
 
 .package-prices {
@@ -287,10 +295,12 @@
 .package-two-box {
     position: relative;
     margin: auto;
-    background: lightgreen;
+    background: white;
     height: 500px;
     width: 300px;
     margin: 10px;
+    box-shadow: 3px 3px lightgrey;
+
 }
 
 .package-two-box p {
@@ -302,10 +312,12 @@
 .package-three-box {
     position: relative;
     margin: auto;
-    background: lightgreen;
+    background: white;
     height: 500px;
     width: 300px;
     margin: 10px;
+    box-shadow: 3px 3px lightgrey;
+
 }
 
 .package-three-box p {
