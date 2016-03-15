@@ -8,34 +8,39 @@
     position: relative;
     margin: auto;
     diplay: flex;
-    background-color: pink;
+    background-color: #e3e6ff;
 }
 
 .nav {
     position: relative;
     display: flex;
     height: 125px;
-    background: lightgreen;
+    background: #bec3d9;
     margin: auto;
+
 }
 
 .nav li {
+    position: relative;
     display: inline-flex;
     margin: 0 10px;
+    top: 30px;
 
 }
 
 .nav a {
     padding: 3px 10px 3px 10px;
     text-decoration: none;
-    font-family: lora;
+    font-family: raleway;
+    font-size: 20px;
+    color: black;
 
 }
 
 .branding img{
     position: relative;
     display: flex;
-    left: 300px;
+    left: 260px;
     top: 12px;
 }
 
@@ -54,7 +59,7 @@
     width: 600px;
     margin: auto;
     top: 200px;
-    background: lightblue;
+    background: none;
 
 }
 
@@ -167,7 +172,7 @@
 .feature-block-two {
     position: relative;
     display: inline-flex;
-    left: 335px;
+    left: 235px;
 }
 
 .feature-block-three {
@@ -178,7 +183,7 @@
 .feature-block-four {
     position: relative;
     display: inline-flex;
-    left: 335px;
+    left: 235px;
 }
 
 .blocks-text {
