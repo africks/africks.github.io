@@ -12,8 +12,9 @@
 }
 
 .nav {
+    position: relative;
     display: flex;
-    height: 100px;
+    height: 125px;
     background: lightgreen;
     margin: auto;
 }
@@ -30,6 +31,17 @@
     font-family: lora;
 
 }
+
+.branding img{
+    position: relative;
+    display: flex;
+    left: 550px;
+    top: 17.5px;
+}
+
+
+/*MAIN*/
+
 .sign-up{
     position: relative;
     height: 500px;
@@ -48,16 +60,15 @@
 
 .sign-up-text-blox h1 {
     position: relative;
-    display: inline-flex;
     margin: auto;
-    left: 190px;
-    
+    text-align: center
 }
 
 .sign-up-text-blox p {
     position: relative;
     height: 80px;
     width: 600px;
+    text-align: center;
 }
 
 .pill-button-pricing {
@@ -86,10 +97,6 @@
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
-    border-radius: 50%;
-    overflow: hidden;
-    height: 200px;
-    width: 200px;
 }
 
 .features h2 {
@@ -143,8 +150,6 @@
     color: white;
     text-decoration: none;
 }
-
-
 
 
 /*!!!!FEATURES PAGE!!!!!*/
@@ -335,4 +340,38 @@
     padding: 10px 30px 10px 30px;
     color: white;
     text-decoration: none;
+}
+
+/*BLOG PAGE*/
+
+.blog-body {
+  position: relative;
+}
+
+.blog-content h1{
+    position: relative;
+    display: inline-flex;
+    margin: 30px 0px 20px 30px;
+    font-size: 40px;
+}
+
+.blog-content p{
+  position: relative;
+  line-height: 30px;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+.blog-left-image {
+  position: relative;
+  float: left;
+  margin-right: 15px;
+  padding: 0 0 0 20px;
+}
+
+.blog-right-image {
+  position: relative;
+  float: right;
+  margin-left: 15px;
+  padding: 0 20px 0 0;
 }
