@@ -190,6 +190,10 @@
     width: 250px;
 }
 
+.large-feature-image img {
+    width: 1150px;
+}
+
 .feature-block-one {
     position: relative;
     display: inline-flex;
@@ -250,6 +254,7 @@
     position: relative;
     margin: none;
     display: flex;
+    height:230px;
 }
 
 .five-image-paragraph {
