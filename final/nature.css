@@ -220,7 +220,7 @@
 .feature-block-two {
     position: relative;
     display: inline-flex;
-    left: 185px;
+    left: 160px;
     font-family: raleway;
     padding: 0 10px 0 0;
 }
@@ -235,7 +235,7 @@
 .feature-block-four {
     position: relative;
     display: inline-flex;
-    left: 185px;
+    left: 160px;
     font-family: raleway;
     padding: 0 10px 0 0;
 }
@@ -497,6 +497,7 @@
     padding: 10px 30px;
     margin: auto;
     font-family: Roboto+Slab;
+    text-align: justify
 }
 
 .blog-left-image {
@@ -508,7 +509,8 @@
 
 .blog-left-image img {
     position: relative;
-    width:500px; 
+    width:500px;
+    margin:auto 10px;
 }
 
 .blog-right-image {
@@ -521,6 +523,7 @@
 .blog-right-image img {
     position: relative;
     width:500px;
+    margin: auto 10px;
 }
 
 /*FOOTER*/
@@ -554,4 +557,5 @@ footer {
     color: white;
     margin: 10px;
     font-size: 14px;
+    font-weight: 100;
 }
